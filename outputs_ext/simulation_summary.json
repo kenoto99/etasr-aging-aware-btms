@@ -1,0 +1,118 @@
+{
+  "model_type": "model-based reduced-order 8-cell electro-thermal-aging screening model",
+  "controllers": [
+    "Passive",
+    "P-control",
+    "Predictive",
+    "Aging-Robust"
+  ],
+  "figures_generated": 30,
+  "nominal_metrics": [
+    {
+      "controller": "Passive",
+      "days": 3,
+      "age_index": 1.0,
+      "max_core_C": 51.54200716769856,
+      "max_surface_C": 50.29480606274956,
+      "max_surface_spread_C": 0.560548509024045,
+      "time_core_over_40_h": 21.0,
+      "time_core_over_45_h": 2.2333333333333334,
+      "btms_energy_kWh": 0.0,
+      "heat_removed_kWh": 0.0,
+      "degradation_exposure_au": 7.724848799337067,
+      "calendar_exposure_au": 6.086183910425157,
+      "cycling_exposure_au": 10.182846132704935,
+      "throughput_Ah": 388.37203780847057,
+      "efc": 3.8837203780847056,
+      "peak_heat_generation_W": 97.06302958693233,
+      "runtime_s": 0.5821826179999903,
+      "final_soc_mean": 0.7184667079305784
+    },
+    {
+      "controller": "P-control",
+      "days": 3,
+      "age_index": 1.0,
+      "max_core_C": 38.900419753518236,
+      "max_surface_C": 37.427609550890395,
+      "max_surface_spread_C": 1.1624958345236678,
+      "time_core_over_40_h": 0.0,
+      "time_core_over_45_h": 0.0,
+      "btms_energy_kWh": 1.1015072951081717,
+      "heat_removed_kWh": 2.221227032817667,
+      "degradation_exposure_au": 6.596686587563777,
+      "calendar_exposure_au": 5.128137822214286,
+      "cycling_exposure_au": 8.799509735588016,
+      "throughput_Ah": 388.37203780847057,
+      "efc": 3.8837203780847056,
+      "peak_heat_generation_W": 116.33573205198181,
+      "runtime_s": 0.5718803050000076,
+      "final_soc_mean": 0.7184667079305784
+    },
+    {
+      "controller": "Predictive",
+      "days": 3,
+      "age_index": 1.0,
+      "max_core_C": 37.3094993736097,
+      "max_surface_C": 35.83980379433132,
+      "max_surface_spread_C": 1.4200196259125732,
+      "time_core_over_40_h": 0.0,
+      "time_core_over_45_h": 0.0,
+      "btms_energy_kWh": 1.321431580044174,
+      "heat_removed_kWh": 2.949333333333333,
+      "degradation_exposure_au": 6.268782085775557,
+      "calendar_exposure_au": 4.887205529353923,
+      "cycling_exposure_au": 8.341146920408006,
+      "throughput_Ah": 388.37203780847057,
+      "efc": 3.8837203780847056,
+      "peak_heat_generation_W": 120.24520880353509,
+      "runtime_s": 1.9840614520000202,
+      "final_soc_mean": 0.7184667079305784
+    },
+    {
+      "controller": "Aging-Robust",
+      "days": 3,
+      "age_index": 1.0,
+      "max_core_C": 37.29569931402182,
+      "max_surface_C": 35.75471454781149,
+      "max_surface_spread_C": 1.426809169373655,
+      "time_core_over_40_h": 0.0,
+      "time_core_over_45_h": 0.0,
+      "btms_energy_kWh": 1.3498276340111535,
+      "heat_removed_kWh": 3.0115555555555558,
+      "degradation_exposure_au": 6.257492638038867,
+      "calendar_exposure_au": 4.873554816667441,
+      "cycling_exposure_au": 8.333399370096007,
+      "throughput_Ah": 388.37203780847057,
+      "efc": 3.8837203780847056,
+      "peak_heat_generation_W": 120.14406991209557,
+      "runtime_s": 3.4789393690000168,
+      "final_soc_mean": 0.7184667079305784
+    }
+  ],
+  "monte_carlo_summary": [
+    {
+      "controller": "Aging-Robust",
+      "scenarios": 30,
+      "Tmax_mean_C": 41.383709531132325,
+      "Tmax_p95_C": 47.769581046015254,
+      "energy_mean_kWh": 0.47319281993395734,
+      "exposure_mean_au": 2.3229065117413414,
+      "violation_45_prob": 0.1
+    },
+    {
+      "controller": "P-control",
+      "scenarios": 30,
+      "Tmax_mean_C": 43.43183060779529,
+      "Tmax_p95_C": 47.995876462979986,
+      "energy_mean_kWh": 0.39915498564217455,
+      "exposure_mean_au": 2.4322869291425437,
+      "violation_45_prob": 0.3
+    }
+  ],
+  "limitations": [
+    "No laboratory calibration or validation is claimed.",
+    "Long-term retained capacity is a scenario-based screening index, not measured SoH.",
+    "Predictive controllers use a reduced-order finite-horizon discrete optimizer.",
+    "Public or laboratory battery data should be used before quantitative lifetime claims."
+  ]
+}
