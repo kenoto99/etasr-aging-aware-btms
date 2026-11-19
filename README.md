@@ -1,5 +1,7 @@
 # Aging-Aware Predictive Thermal Management of Lithium-Ion Battery Packs under Tropical Fast Charging and Uncertainty: Simulation Code and Results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24365113.svg)](https://doi.org/10.5281/zenodo.24365113)
+
 Praphat Phuangchuen, Prakasit Prabpal, Somchat Sonasang, Kritphon Phanrattanachai, and Wirasak Chotikankun (corresponding author, wirasak@techsakon.ac.th)
 
 This repository contains the Python code, simulation outputs, and figure scripts used in the article "Aging-Aware Predictive Thermal Management of Lithium-Ion Battery Packs under Tropical Fast Charging and Uncertainty", submitted to *Engineering, Technology & Applied Science Research* (ETASR), manuscript no. 22085.
@@ -24,6 +26,10 @@ Numerical scheme:
 - The Monte Carlo scenarios use the fixed random seed 20261031.
 
 This is a model-based screening study. The parameters are a generic reference set, not values identified from a specific commercial cell. The long-term retained-capacity curves are comparative screening indices, not experimentally validated state-of-health predictions.
+
+## License
+
+See the `LICENSE` file in this repository.
 
 ## Requirements
 
@@ -77,4 +83,4 @@ The other figures in `figures/` are additional diagnostics that are not shown in
 
 ## How to cite
 
-P. Phuangchuen, P. Prabpal, S. Sonasang, K. Phanrattanachai, and W. Chotikankun, "Python code and simulation data for aging-aware predictive thermal management of lithium-ion battery packs under tropical fast charging," Zenodo, 2026, doi: 10.5281/zenodo.XXXXXXX.
+P. Phuangchuen, P. Prabpal, S. Sonasang, K. Phanrattanachai, and W. Chotikankun, "Python code and simulation data for aging-aware predictive thermal management of lithium-ion battery packs under tropical fast charging," Zenodo, 2026, doi: 10.5281/zenodo.24365113.
