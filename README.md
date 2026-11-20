@@ -1,6 +1,6 @@
 # Aging-Aware Predictive Thermal Management of Lithium-Ion Battery Packs under Tropical Fast Charging and Uncertainty: Simulation Code and Results
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24365113.svg)](https://doi.org/10.5281/zenodo.24365113)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24398917.svg)](https://doi.org/10.5281/zenodo.24398917)
 
 Praphat Phuangchuen, Prakasit Prabpal, Somchat Sonasang, Kritphon Phanrattanachai, and Wirasak Chotikankun (corresponding author, wirasak@techsakon.ac.th)
 
@@ -102,9 +102,11 @@ The exceedance-frequency difference at 600 s is not present at 300 s. Results ar
 
 ## Versions
 
-- v1.0: code and outputs for the original submission.
-- v1.1: adds `verify_results.py`, `replay_update_interval.py`, and `interval_replay/`. All v1.0 files are unchanged.
+- v1.0: code and outputs for the original submission (doi: 10.5281/zenodo.24365113).
+- v1.1: adds `verify_results.py`, `replay_update_interval.py`, and `interval_replay/`. All v1.0 files are unchanged (doi: 10.5281/zenodo.24398917).
 
 ## How to cite
 
-P. Phuangchuen, P. Prabpal, S. Sonasang, K. Phanrattanachai, and W. Chotikankun, "Python code and simulation data for aging-aware predictive thermal management of lithium-ion battery packs under tropical fast charging," Zenodo, 2026, doi: 10.5281/zenodo.24365113.
+All versions can be cited with the concept DOI 10.5281/zenodo.24365112. To cite the version used in the revised manuscript:
+
+P. Phuangchuen, P. Prabpal, S. Sonasang, K. Phanrattanachai, and W. Chotikankun, "Python code and simulation data for aging-aware predictive thermal management of lithium-ion battery packs under tropical fast charging," Zenodo, v1.1, 2026, doi: 10.5281/zenodo.24398917.
